@@ -5,3 +5,11 @@ body{
     margin-left: 600px;
     margin-top: 200px;
 }
+
+
+@media screen and(max-width: 992px) {
+    body{
+        margin: 0;
+    }
+    
+}

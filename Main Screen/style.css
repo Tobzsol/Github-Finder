@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.pics{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.picture{
+    margin-left: 400px;
+    margin-bottom: 700px;
+}
+
+@media screen and(max-width: 992px) {
+    body{
+        margin: 0;
+    }
+    
+}

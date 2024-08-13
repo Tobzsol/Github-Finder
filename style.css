@@ -11,5 +11,7 @@ body{
     body{
         margin: 0;
     }
-    
+    .pics{
+        align-items: center;
+    }
 }

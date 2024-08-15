@@ -2,13 +2,36 @@ body{
     margin: 0;
     padding: 0;
 }
+.name{
+    font-weight: 600;
+    font-size: 28px;
+}
 .pics{
     margin-top: 30px;
-    margin-left: 50px;
+    margin-right: 90px;
 }
 .picture{
-    margin-left: 400px;
+    margin-right: 200px;
     margin-bottom: 700px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content{
+    color: #0064EB;
+    font-weight: 500;
+    font-size: 29px;
+}
+.text{
+    color: #0064EB;
+    font-weight: 400;
+    font-size: 18px;
+}
+.words{
+    border: 1px solid;
+    border-style: outset;
 }
 
 @media screen and(max-width: 992px) {

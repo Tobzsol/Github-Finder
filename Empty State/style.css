@@ -1,6 +1,33 @@
 body{
     margin: 0;
 }
+.nav{
+    background: #0064EB;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.group{
+    position: relative;
+}
+input{
+    width: 400px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 0;
+}
+::placeholder{
+    padding-left: 40px;
+}
+.search{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.frame{
+    margin-left: 30px;
+}
 .pic{
     display: flex;
     flex-direction: column;

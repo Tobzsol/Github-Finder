@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #F9F9F9;
 }
 .nav{
     background: #0064EB;
@@ -35,21 +36,53 @@ input{
 }
 .pics{
     margin-top: 30px;
-    margin-right: 90px;
+    margin-left: 56px;
 }
 .picture{
-    margin-right: 200px;
     margin-bottom: 700px;
+    width: 100%;
 }
 .wrapper{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 85px;
+}
+.followers{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+}
+.followers-number{
+    display: flex;
+    gap: 10px;
+}
+.following-number{
+    display: flex;
+    gap: 10px;
+}
+.follower-image{
+    width: 24px;
+    height: 24px;
+    margin: 0px;
+}
+.following-image{
+    width: 24px;
+    height: 24px;
+    margin: 0;
+}
+.follower-text{
+    margin: 0;
+}
+.following-text{
+    margin: 0;
 }
 .content{
     color: #0064EB;
     font-weight: 500;
     font-size: 29px;
+    margin: 0;
 }
 .text{
     color: #0064EB;
@@ -57,13 +90,35 @@ input{
     font-size: 18px;
 }
 .words{
-    border: 1px solid;
-    border-style: outset;
+    background-color: #FFFF;
+    padding: 24px 32px 24px 32px;
+    border-radius: 6px;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
-@media screen and(max-width: 992px) {
-    body{
-        margin: 0;
+@media (max-width: 992px) {
+    input{
+        width: 200px;
     }
-    
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .picture{
+        margin-left: 80px;
+    }
+    .followers{
+        display: flex;
+        flex-direction: column;
+    }
+    .respository-image{
+        width: 200px;
+        height: 200px;
+    }
 }
